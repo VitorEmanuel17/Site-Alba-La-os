@@ -1,0 +1,38 @@
+.cabecalho {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.quadro {
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    display: flex; /* Ativa flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    box-sizing: border-box;
+    width: 50%;
+    height: 200px;
+    margin: 30px auto; /* Centraliza o quadro na página */
+    background-color: #EEB7D0;
+    border-radius: 30px;
+    border: 1px solid rgb(220, 102, 249)}
+
+.img-quadro {
+    width: 80%;
+    height: 80%;
+    display: flex; /* Ativa flexbox para centralizar internamente */
+    justify-content: center; /* Centraliza horizontalmente a imagem */
+    align-items: center; /* Centraliza verticalmente a imagem */
+    text-align: center;
+}
+.img-quadro img {
+    width: 100%; /* Ajusta à área disponível */
+    height: 100%; /* Ajusta à área disponível */
+    border-radius: 10px;
+}
